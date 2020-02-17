@@ -21,7 +21,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	  border: solid black 1px;    
+	   border: solid black 1px;     
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -57,8 +57,8 @@ table {
 }
 .body1 {
     margin: 5%;
-    /* margin-top: 10%;
-    margin-bottom: 10%; */
+     margin-top: 10%;
+    margin-bottom: 10%; 
 
 }
 html, body {
@@ -73,18 +73,21 @@ h1, h2, h3, h4, h5 {
 }
 
   .links1{
-     letter-spacing: 8px;
+     letter-spacing: 1px;
     
   }
-  
+  nav {
+      
+  }
   div #innovation { 
 	font-size: 70px;
   }
    .topnav {
     
 	display:flex;
-	justify-content: space-around;
-}
+    justify-content: space-around;
+    
+    }
 
   /* section1.topnav{
 	width: 25%;
@@ -96,10 +99,12 @@ h1, h2, h3, h4, h5 {
 	width: 25%;
 
   }
+  
    
   .center {
    width:100%;
-	display:flex;
+    display:flex;
+    flex-direction: row;
 	justify-content:space-around;
     align-items: center; 
     margin-top: 5%;
@@ -169,11 +174,12 @@ h1, h2, h3, h4, h5 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: solid black 1px;
+        /* border: solid black 1px; */
         padding: 5%;
+        
     }
     
-    }
+    
     .center {
         width:100%;
          display:flex;
